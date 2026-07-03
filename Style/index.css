@@ -1,0 +1,238 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 130%;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #111;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb{
+    background: #8844dd;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #a055ff;
+}
+#BlackDiv1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s ease,
+    opacity 0.5s ease;
+    z-index: 9999;
+}
+#JianJie1{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    background-color: #383838;
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#JianJie2{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 45%;
+    height: 50%;
+    background-color: #383838;
+    border-radius: 10px;
+}
+#title{
+    position: fixed;
+    margin-top: 24px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 5%;
+    background-color: rgb(0,0,0);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 9000;
+}
+#div1{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #383838;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+#image3{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+}
+#image1{
+    position: absolute;
+    left: 35%;
+    height: 80%;
+}
+#text1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+#text2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    white-space: nowrap;
+}
+#text3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+#text4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 200;
+}
+#text5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    font-size: 15px;
+    font-weight: 200;
+}
+#text6{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 200;
+}
+#text7{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    font-size: 15px;
+    font-weight: 200;
+}
+#text8{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+#text9{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    white-space: nowrap;
+}
+#text10{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+#text10 a{
+    text-decoration: none;
+    color: rgb(183, 0, 255);
+}
+#text10 a:active{
+    color: rgb(223, 143, 255)
+}
+#text11{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+}
+#btn1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 160px;
+    height: 5%;
+    border: none;
+    background-color: rgb(66, 0, 92);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease,
+    transform 0.5s ease;
+}
+#btn1:hover{
+    background-color: rgb(113, 0, 158);
+    transform: translate(-50%,-50%) scale(1.2);
+}
+#image2{
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+}
+#span1{
+    position: absolute;
+    margin-left: 15px;
+}
+#video1{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40%;
+}
