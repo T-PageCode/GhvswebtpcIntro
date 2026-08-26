@@ -2,7 +2,7 @@ body,html{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 130%;
+    height: 1700px;
     -webkit-user-select: none;
     -o-user-select: none;
     -ms-user-select: none;
@@ -39,12 +39,12 @@ body,html{
 }
 #JianJie1{
     position: absolute;
-    top: 60%;
+    top: 600px;
     left: 25%;
     transform: translate(-50%,-50%);
     background-color: #383838;
     width: 45%;
-    height: 50%;
+    height: 500px;
     border-radius: 25px;
     color: white;
     display: flex;
@@ -52,25 +52,26 @@ body,html{
 }
 #JianJie2{
     position: absolute;
-    top: 60%;
+    top: 600px;
     left: 75%;
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
     color: white;
     width: 45%;
-    height: 50%;
+    height: 500px;
     background-color: #383838;
     border-radius: 25px;
 }
 #title{
     position: fixed;
-    margin-top: 24px;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 5%;
-    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -78,12 +79,12 @@ body,html{
 }
 #div1{
     position: absolute;
-    top: 155%;
+    top: 1600px;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #383838;
     width: 90%;
-    height: 20%;
+    height: 150px;
     border-radius: 10px;
 }
 
@@ -109,7 +110,7 @@ body,html{
 }
 #text2{
     position: absolute;
-    top: 10%;
+    top: 100px;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 40px;
@@ -119,7 +120,7 @@ body,html{
 }
 #text3{
     position: absolute;
-    top: 30%;
+    top: 160px;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
@@ -156,7 +157,7 @@ body,html{
 }
 #text8{
     position: absolute;
-    top: 90%;
+    top: 900px;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
@@ -199,11 +200,11 @@ body,html{
 }
 #btn1{
     position: absolute;
-    top: 25%;
+    top: 250px;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 160px;
-    height: 5%;
+    height: 50px;
     border: none;
     background-color: rgb(66, 0, 92);
     border-radius: 20px;
@@ -231,8 +232,9 @@ body,html{
 }
 #video1{
     position: absolute;
-    top: 120%;
+    top: 1250px;
     left: 50%;
     transform: translate(-50%,-50%);
     height: 40%;
+    border-radius: 25px;
 }
