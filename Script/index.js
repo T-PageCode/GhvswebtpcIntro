@@ -9,3 +9,6 @@ function BlackDiv1Show() {
         location.href="https://t-pagecode.github.io/Ghvswebtpc/WebSystem/InstAndGo.html"
     },1000)
 }
+document.querySelectorAll("*").forEach((e) => {
+    e.draggable = false;
+})
